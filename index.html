@@ -1,0 +1,117 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"content="width=device-width,initial-scale=1.0">
+      <title>Hema's Portfolio</title>
+      <link rel="stylesheet"href="style.css">
+      </head>
+
+    <body>
+
+      <header>
+        <nav>
+          <h1>Hema Thirumoorthy</h1>
+
+          <ul>
+            <li><a href="#about">About</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#contact">Contact</a></li>
+          </ul>
+<button> id="theme-toggle">🌙</button>
+        </nav>
+      </header>
+
+      <main>
+
+        <section class="hero">
+          <div>
+            <h2>Welcome to My Portfolio </h2>
+            <p> Computer Science Engineering Student 
+            </p>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div>
+            <h2> About Me</h2>
+            <p>
+              I am Hema , a Computer Science Engineering Student
+              passionate about Web Developement , AI , and modern technologies.
+            </p>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          
+          <div class="projects-grid">
+
+            <div class="project-cards">
+              <h3>Portfolio Website</h3>
+              <p>Responsive portfolio using HTML and CSS3.</p>
+            </div>
+
+            <div class="project-card">
+              <h3>Calculator App</h3>
+              <p>Simple calculator built with HTML,CSS and JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+              <h3>Student Management System</h3>
+            <p>Academic project for managing student recors.</p>
+            </div>
+
+          </div>
+        </section>
+        
+        <section id="skills">
+          <h2>Skills</h2>
+
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+        </section>
+
+        <section id="contact">
+          <h2>Contact Me</h2>
+
+          <from>
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <textarea rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </from>
+        </section>
+        
+      </main>
+
+      <footer>
+        <p>&copy; 2026 Hema Thirumoorthy. All Rights Reserved.
+        </p>
+      </footer>
+
+      <script>
+        const toggleBtn = document.getElementById("theme-toggle");
+
+        toggleBtn.addEvenListener("click",() => {
+          document.body.classList.toggle("dark-mode");
+        });
+      </script>
+
+    </body>
+  </html>
+
+
+
+
+
+
