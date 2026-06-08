@@ -7,9 +7,9 @@
 }
 
 /*Dark Mode*/
->dark-mode{
-  --bg-color:##121212;
-  --text-color:##ffffff;
+.dark-mode{
+  --bg-color:#121212;
+  --text-color:#ffffff;
   --card-color:#1e1e1e;
 }
 
@@ -24,7 +24,7 @@
 /*Body*/
 body {
   font-family:Arial,sans-serif;
-  baclground-color:var(--bd-color);
+  background-color:var(--bg-color);
   color:var(--text-color);
   line-height:1.6;
 }
@@ -33,7 +33,7 @@ body {
 nav{
   display:flex;
   justify-content:space-between;
-  align-items:center:
+  align-items:center;
   background:var(--primary-color);
   padding:15px 30px;
 }
@@ -70,7 +70,7 @@ nav a{
 }
 
 .hero h2{
-  font-size:2,5rem;
+  font-size:2.5rem;
 }
 
 /*Section*/
@@ -97,7 +97,7 @@ h2{
 }
 
 .project-card{
-  background:vvar(--card-color);
+  background:var(--card-color);
   padding:20px;
   transition:transform 0.3s ease;
 }
@@ -107,9 +107,9 @@ h2{
 }
 
 /*Skills*/
-#skilss ul{
+#skills ul{
   list-style:none;
-  text-again:center;
+  text-align:center;
 }
 
 #skills li{
@@ -154,7 +154,7 @@ footer{
 @media(min-width:768px){
   .about{
     display:flex;
-    justify content:center;
+    justify-content:center;
     align-items:center;
   }
 }
